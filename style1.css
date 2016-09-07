@@ -1,0 +1,20 @@
+@import url('fonts.css');
+
+#img1{
+	margin-left: 7%;
+}			
+
+
+
+@media (max-width:700px) { 
+	#img1{
+		-webkit-transform: scale(0.5); /* Safari and Chrome */
+		-moz-transform: scale(0.5); /* Firefox */
+		-ms-transform: scale(0.5); /* IE 9 */
+		-o-transform: scale(0.5); /* Opera */
+		transform: scale(0.5);
+		margin-left: 5%;
+		margin-top: 3%;
+	}
+
+}
